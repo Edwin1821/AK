@@ -5,36 +5,36 @@
     box-sizing: border-box;
     
 }
-body {
-    background-image: url(meat\ bg.jpg);
-    height: 100vh;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+
     
-}
+
 header {
     width: 100%;
-    height: 73px;
+    height: 75px;
     position: absolute;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
     padding: 30px 10%;
-    
+    border-bottom: 2px solid rgb(235, 235, 235);
+    box-shadow: 2px 1px 5px rgb(235, 235, 235);
+}
 
+.logo img {
+    width: 100px;
+    height: 28px;
 }
 .logo h3 {
-    font-family: "Kalam", cursive;
-    font-weight: 700;
+    font-family: "Mr Bedfort", cursive;
+    font-weight: 500;
     font-style: normal;
-    color: red;
+    color: #d88a2b;
     letter-spacing: 3px;
     pointer-events: none;
+    font-size: 30px;
     
 }
-
 .navbar li {
     display: inline-block;
     list-style: none;
@@ -42,67 +42,21 @@ header {
     text-align: center;
 }
 .navbar ul {
-    margin-left: 50px;
+    
     font-family: "IBM Plex Sans", sans-serif;
-    font-weight: 500;
+    font-weight: 400;
     font-style: normal;
 }
 .navbar a{
-    color: #fff;
+    color:	#c25440 ;
     text-decoration: none;
     transition: 0.2s;
 }
-.navbar :hover{
-    color: #fc0b0b;
-}
-.navbar .active {
-    color: #ff2525;
-}
-
-.btn .button-1 {
-    display: flex;
-}
-
-.button-1{
-  background: linear-gradient(to bottom right, #ff2828, #180e07);
-  border: 0;
-  border-radius: 12px;
-  color: #ff2525;
-  cursor: pointer;
-  display: inline-block;
-  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  font-size: 13px;
-  font-weight: 600;
-  line-height: 2.5;
-  outline:transparent;
-  padding: 0 1rem;
-  text-align: center;
-  text-decoration: none;
-  transition: box-shadow .2s ease-in-out;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  white-space: nowrap;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  margin-left: 70px;
-  background: transparent;
-  border: 1px solid red;
-}
-
-.button-1:not([disabled]):hover {
-  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(255, 11, 11, 0.881), .125rem .125rem 1rem rgba(255, 27, 27, 0.927);
-}
-
-.heading {
-    color: #fff;
-    display: flex;
-    position: relative;
+.navbar i {
+    font-size: 20px;
+    color: #c25440;
+    cursor: pointer;
+    padding-right: 5px;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
-    font-size: larger;
-    letter-spacing: 2px;
-    
     
 }
